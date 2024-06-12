@@ -10,8 +10,8 @@ const perguntas = [
         alternativas: [
             "Isso é assustador!",
             "Isso é maravilhoso!"
-        ]
-    },
+    }
+
     {
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
         alternativas: [
@@ -48,6 +48,13 @@ let perguntaAtual;
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    mostraAlternativa();
 }
-
+function mostraAlternativas() {}
+for (const alternativa of perguntaAtual.alternativas
+const botaoAlternativas = document.createElement("button");
+botaoAlternativa.textContent = alternativa;
+caixaAlternativa.appendChild(botaoAlternativas);
+     }
+     }
 mostraPergunta();
