@@ -13,7 +13,7 @@ const perguntas = [
                 afirmacao: "afirmação"
             },
             {
-                texto: "Elegante",
+                texto: "Despojado",
                 afirmacao: "afirmação"
             }
         ]
