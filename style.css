@@ -30,3 +30,7 @@ h1{
  color: var(--cor-destaque);
 }
 
+button:hover{
+  background-color: var(--coor-destaque);
+  color: var(--cor-principal);
+}
