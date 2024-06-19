@@ -16,11 +16,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Casual",
-                afirmacao: "afirmação"
+                afirmacao: " um modelo de calçado para se usar no dia a dia, com roupas casuais ou até mesmo sociais dependendo do contexto e do seu estilo"
             },
             {
-                texto: "Despojado",
-                afirmacao: "afirmação"
+                texto: "Vans Old Skool.",
+                afirmacao: "foi o primeiro modelo da marca a trazer as clássicas Sidestripes laterais"
             }
         ]
     },
