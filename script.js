@@ -4,6 +4,12 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
+function mostraResultadoo() {
+    caixaPerguntas.textContent = "Em 2049...";
+    textoResultado.textcontent = historiaFinal;
+    caixaAlternativas.textContent = "";
+}
+
 const perguntas = [
     {
         enunciado: "Qual estilo vocẽ prefere?",
